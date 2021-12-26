@@ -535,7 +535,7 @@
 <div id="article-share">
 
     
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <div class="social-share" data-sites="qq,wechat" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
     <script src="/libs/share/js/social-share.min.js"></script>
     
 
@@ -548,33 +548,6 @@
             
         </div>
     </div>
-
-    
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
-        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
-        <span>评论</span>
-    </div>
-    <div id="gitalk-container" class="card-content"></div>
-</div>
-
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: null,
-        id: '2021-11-27T14-38-44',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
 
     
 
@@ -1084,6 +1057,34 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
+    
+        <script src="//code.tidio.co/xfouil1zkpksefpxovgydkrsl1ykpbs0.js"></script>
+        <script>
+            $(document).ready(function () {
+                setInterval(change_Tidio, 50);
+                function change_Tidio() {
+                    var tidio=$("#tidio-chat iframe");
+                    if(tidio.css("display")=="block"&& $(window).width()>977 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"85px":"20px";
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
+                        document.getElementById("tidio-chat-iframe").style.zIndex="998";
+                    }
+                }
+            });
+        </script>
     
 
     
