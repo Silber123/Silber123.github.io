@@ -4,58 +4,32 @@
   
     
     <entry>
-      <title>test2</title>
-      <link href="/2021/12/30/test2/"/>
-      <url>/2021/12/30/test2/</url>
+      <title>test</title>
+      <link href="/2021/12/31/test/"/>
+      <url>/2021/12/31/test/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/6ef3007e4ef04eb789de5c31494cbf44.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA44WkU2lsYmVybcO2d2U=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="1"><br><img src="https://img-blog.csdnimg.cn/94141b22f39249c990cd2acf06d33016.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA44WkU2lsYmVybcO2d2U=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="2"><br><img src="https://img-blog.csdnimg.cn/21dd8c79476d4c91a610f5194d5cce2b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA44WkU2lsYmVybcO2d2U=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="3"></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/7c4e9929548a4145be2c25dcb0214022.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA44WkU2lsYmVybcO2d2U=,size_8,color_FFFFFF,t_70,g_se,x_16" alt="test"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于MarkDown无法显示图片的解决方案</title>
+      <link href="/2021/12/31/1/"/>
+      <url>/2021/12/31/1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>1.i首先注册一个CSDN账号<br><a href="https://www.csdn.net/">CSDN</a>  </li><li>2.点击创作按钮中的写文章<br><img src="">  </li><li>3.输入标题，让后在内容部分粘贴自己需要的内容  </li><li>4.根据如图设置，点击发布博客。</li><li>5.点击发布成功并点击查看文章  </li><li>6.复制图像链接。</li><li>7.接下来经行上传操作</li></ul>]]></content>
       
       
       
         <tags>
             
-            <tag> 图片测试 </tag>
+            <tag> 总结 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>date</title>
-      <link href="/2021/12/27/date/"/>
-      <url>/2021/12/27/date/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world"></a>Hello world</h1><p><em>斜体文字</em></p><p><strong>粗体</strong></p><ul><li>第一  </li><li>第二  </li><li>第三  </li></ul><p>1.第一：<br>    1.1<br>    1.2<br>2.第二：<br>    2.1<br>    2.2<br><img src="https://pic1.zhimg.com/v2-d58ce10bf4e01f5086c604a9cfed29f3_r.jpg?source=1940ef5c"><br><img src="https://www.keaidian.com/uploads/allimg/190424/24110307_20.jpg"><br><img src="https://github.com/silber123/silber123.github.io/blob/master/medias/images/01.jpg?raw=true" width="50%"><br><img src="https://github.com/silber123/silber123.github.io/blob/master/medias/images/01.jpg?raw=true"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>about</title>
-      <link href="/2021/11/27/about/"/>
-      <url>/2021/11/27/about/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2021/11/01/test/"/>
-      <url>/2021/11/01/test/</url>
-      
-        <content type="html"><![CDATA[<p>#一级<br>##二级<br>###三级<br>####四级</p>]]></content>
-      
-      
       
     </entry>
     
