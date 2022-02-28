@@ -3,5 +3,5 @@
     cursor: url("/medias/ico1.ico"),auto!important;
 }
 :active{
-    cursor: url("/medias/ico1.ico"),initial!important;
+    cursor: url("/medias/ico2.ico"),pointer!important;
 }
